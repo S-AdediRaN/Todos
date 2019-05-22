@@ -1,0 +1,448 @@
+/* ONLINE CV     */
+
+
+
+/* class Selectors*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+    height: 100vh;
+	background-image: url(../image/wallp.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    font-family: 'Raleway';
+    background-attachment: fixed;
+    overflow: hidden;
+    border-bottom: solid 3px tomato;
+    border-top: solid 3px tomato;
+}
+
+h1{
+	font-family: 'Raleway';
+	letter-spacing: 4px;
+	color: white;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+a{
+	color: white;
+}
+
+h1 + p {
+	color: lemonchiffon;
+	font-size: 2em;
+	margin: 0;
+	font-family:Raleway;
+	border-bottom: 1px solid;
+	display: inline;
+}
+
+.button{
+	display: inline-block;
+	padding: 10px;
+	border: solid 1px white;
+	border-radius: 3px;
+	font-family:Raleway;
+	color: white;
+}
+
+.button:hover{
+	border: solid 1px tomato;
+}
+
+/*CONTAINERS*/
+.container{
+	width: 47%;
+	margin: 1%;
+	margin-top: 5%;
+    margin-bottom: 4%;
+	display: inline-block;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.main-container{
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+}
+
+
+#first-container{
+	float: left;
+	padding-top: 15%;
+}
+
+#second-container{
+    box-sizing: border-box;
+	background-color: white;
+    border-bottom: solid 3px tomato;
+	min-height: calc(96vh - 70px);
+	float: right;
+}
+
+i{
+	color: tomato;
+}
+
+.i-class{
+	font-size: 15px;
+	padding: 5px;
+	color: white;
+}
+
+.i-class2{
+	font-size: 30px;
+	padding: 5px;
+	color: black;
+}
+
+
+h3{
+	background-color: tomato;
+	padding: 3%;
+	margin: 0;
+	font-family: 'Raleway';
+	text-align: center;
+}
+
+h3:hover{
+	color: white;
+}
+
+.todoinputform{
+    margin-top: 2%;
+}
+
+#todoinput{
+	padding: .5em;
+	width: 80%;
+	margin: 1%;
+	margin-left: 3%;
+	font-family: 'Raleway';
+    font-size: 1.3em;
+	border: solid 1px grey;
+	border-radius: 3px;
+	border-left: none;
+	border-right: none;
+    background-color: transparent;
+    color: white;
+}
+
+.fa-power-off{
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-left: 15%;
+}
+
+.fa-power-off:hover{
+    color: wheat;
+}
+
+#submit,
+switch{
+	background-color: black;
+	padding: 10px 20px;
+	box-shadow: 3px 3px 5px grey;
+    font-size: 1.3em;
+}
+
+#submit:active{
+	background-color: dimgrey;
+}
+
+li{
+	padding: 10px;
+	border: solid 1px rgb(180,180,180);
+	border-radius: 3px;
+	font-family:Raleway;
+    font-size: 1.3em;
+	width:60%;
+	margin: 1%;
+	display: inline-block;
+	background-color: white;
+	box-shadow: 1px 2px 2px grey;
+	border-bottom: solid 2px white;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+li:hover{
+	transform: scale(1.008);
+    cursor: pointer;
+}
+
+.fa-check-double,
+.power{
+	float: right;
+	font-size: 20px;
+	color: white;
+}
+
+
+.right{
+	float: right;
+	font-size: 20px;
+    color: black;
+}
+
+.fa-asterisk{
+	color: black;
+}
+
+.ul{
+	background-color: transparent;
+	background-size: cover;
+	box-sizing: border-box;
+	max-height: 60vh;
+	height: 60vh;
+	overflow: scroll;
+	width: 80%;
+}
+
+
+b{
+	display: inline;
+	font-size: 0.3em;
+	position: absolute;
+	top: 100%;
+	right: 37%;
+	font-family: sans-serif;
+}
+
+
+
+#count1{
+    color: seagreen;
+    font-size: 2em;
+}
+
+#count2{
+    color: tomato;
+    font-size: 2em;
+}
+
+#count3{
+    color: wheat;
+    font-size: 2em;
+}
+
+
+.app2-container{
+    width: 60%;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.select{
+    background-image: url(../image/wallp.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+    appearance: none;
+    color: white;
+}
+
+#setalarm{
+    cursor: pointer;
+    color: black;
+}
+
+#setalarm:active{
+    color: tomato;
+}
+
+
+.social{
+    margin-left: 11%;
+    position: absolute;
+    bottom: 6%;
+}
+.social i{
+    font-size: 1.5em;
+    padding-right: 1em;
+}
+
+
+
+
+/*USERS CSS----------------------*/
+
+#signuptable{
+    margin-top: 10%;
+    width: 100%;
+    font-family: "Raleway";
+    margin-left: 3%;
+}
+
+#signuptable input{
+    padding: .8em 1.3em;
+    border: solid 1px grey;
+    border-left: none;
+    border-right: none;
+    border-radius: 3px;
+}
+
+#signuptable input:focus{
+    border: solid 2px limegreen;
+}
+
+#signuptable input[type="submit"]{
+    background-color: rgb(45 ,51 ,66);
+    color: white;
+    margin-top: 5%;
+    margin-left: 74%;
+    cursor: pointer;
+}
+
+#signuptable input[type="submit"]:hover{
+    border: solid 1px tomato;
+}
+
+#signuptable input[type="submit"]:active{
+    background-color: white;
+    color: black;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+
+.errors{
+    margin-left: 35%;
+    color: red;
+    display: block;
+    animation: 1s shake;
+}
+
+.thanks{
+    margin-left: 15%;
+    color: limegreen;
+    display: block;
+    animation: 1s pulse;
+}
+
+.logoutsuccessmessage{
+    margin-left: 35%;
+    color: blue;
+}
+
+.usergreeting{
+    color: white;
+    position: absolute;
+    right: 6.5%;
+    top: 1%;
+}
+
+.preupgrade{
+    margin-left: 3%;
+    color: white;
+}
+
+.todoicons{
+    font-size: .9em;
+    float: right;
+    margin-left: 2%;
+    opacity: .7;
+}
+
+.todoicons:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.fa-trash-alt{
+    color: tomato;
+}
+.fa-window-close{
+    color: black;
+}
+.fa-check-square{
+    color: seagreen;
+}
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media(max-width:1000px){
+	body{
+		display: none;
+	}
+}
+
+@media(max-width:1200px){
+
+	h1{
+		font-size: 30px;
+	}
+	
+	b{
+		display: block;
+		position: absolute;
+		
+	}
+	
+	li{
+		padding: 6px;
+		box-shadow: none;
+	}
+	
+	#submit{
+		padding: 10px 10px;
+	}
+	
+	#todoinput{
+		width: 60%;
+	}
+    
+    .countstatus{
+        font-size: .8em;
+    }
+    
+    .app2-container{
+        width: 70%;
+    }
+    
+    .app2-container span{
+        font-size: .9em;
+    }
+    
+    .select{
+        font-size: .8em;
+    }
+
+}
+
+@media(min-width:1200px){
+	b{
+		position: static;
+		display: block;
+		font-size: .23em;
+	}
+	
+	li{
+		padding: 7px;
+	}
+	
+	#todoinput{
+		width: 60%;
+	}
+}
+
+
+
+
