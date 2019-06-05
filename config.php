@@ -2,9 +2,9 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'root');
-define('DB_NAME', 'reservation');
+define('DB_USERNAME', 'jan');
+define('DB_PASSWORD', 'janspass');
+define('DB_NAME', 'codespace');
  
 /* Attempt to connect to MySQL database */
 $mysqli = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -14,7 +14,7 @@ if($mysqli === false){
     die("ERROR: Could not connect. " . $mysqli->connect_error);
 }
 
-$sql = "CREATE TABLE `todolist` (
+$sql = "CREATE TABLE`todolist` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `username` varchar(100) NOT NULL,
   `todoitem` varchar(255) NOT NULL,
@@ -33,6 +33,5 @@ $sql = "CREATE TABLE users (
 if ($mysqli->query($sql) === TRUE) {
     echo "Table todolist created successfully";
 } else {
-    echo "Error creating table: " . $mysqli->error;
 }
 ?>
